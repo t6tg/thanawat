@@ -3,10 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thanawat Gulati</title>
+    <title>
+      Thanawat Gulati | My personal website brings my work, work experience,
+      news and work schedule here.
+    </title>
+    <meta name="theme-color" content="#1a202c" />
+    <meta
+      name="description"
+      content="My personal website brings my work, work experience, news and work schedule here."
+    />
+    <link rel="stylesheet" media="all" href="./assets/tailwind.pcss" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" />
+    <link rel="apple-touch-icon" href="./assets/favicon.ico" />
   </head>
   <body>
     <div id="root"></div>
-    <script src="index.tsx"></script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <script src="index.tsx" async></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          const path = "/sw.js";
+          navigator.serviceWorker.register(path);
+        });
+      }
+    </script>
   </body>
 </html>
