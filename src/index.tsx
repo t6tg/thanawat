@@ -1,18 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+import App from "./components/App";
 
-class Index extends React.Component {
-  render() {
-    return (
-      <div>
-        <div className="container">
-          <h1>Hello</h1>
-        </div>
-      </div>
-    );
-  }
-}
-
-let App = document.getElementById("app");
-
-ReactDOM.render(<Index />, App);
+const root = document.getElementById("root") as HTMLElement;
+ReactDOM.render(<App />, root);
