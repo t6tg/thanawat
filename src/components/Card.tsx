@@ -1,21 +1,24 @@
 import React, { ReactElement } from "react";
 
-interface Props {}
+interface Props {
+  data: {
+    title: string;
+    description: string;
+    link: string;
+  };
+}
 
-export default function Card({}: Props): ReactElement {
+export default function Card({ data }: Props): ReactElement {
   return (
-    <div className="pt-4">
-      <section className="bg-white dark:bg-gray-600 rounded-lg p-6">
-        <div className="text-lg font-semibold pb-2 uppercase">
-          Hello from the other side
+    <main className="pt-4">
+      <section className="bg-white bg-gray-200 dark:bg-gray-600 rounded-lg p-6">
+        <div className="text-lg font-semibold pb-2 uppercase hover:underline">
+          <a href={data.link} rel="noopener" target="_blank">
+            {data.title}
+          </a>
         </div>
-        <p className="text-sm font-light lowercase">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque porro
-          iure ullam perspiciatis magnam repellendus consequuntur aliquid,
-          laborum repudiandae, dolore sequi dolorem laudantium voluptas,
-          eligendi aspernatur quisquam quae enim praesentium?
-        </p>
+        <p className="text-sm font-light lowercase">{data.description}</p>
       </section>
-    </div>
+    </main>
   );
 }
