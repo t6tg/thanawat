@@ -26,10 +26,31 @@ export default function App({}: Props): ReactElement {
       link: "https://github.com/thanawatgulati/compro2grader",
     },
     {
-      title: "Computer Programming Grader",
-      description:
-        "Automatic programming check system Used in teaching computer programming at king mongkut's university of technology north bangkok",
-      link: "https://github.com/thanawatgulati/compro2grader",
+      title: "covid-19",
+      description: "Covid-19 Real Time Data in Thailand and The world",
+      link: "https://thanawatgulati.github.io/covid-19",
+    },
+    {
+      title: "Orther",
+      description: "Other works and work experience",
+      link: "https://github.com/thanawatgulati",
+    },
+  ];
+  const Contact = [
+    {
+      title: "Email",
+      description: "My work email",
+      link: "mailto:work@thanawatgulati.com",
+    },
+    {
+      title: "Github",
+      description: "My github account",
+      link: "https://github.com/thanawatgulati",
+    },
+    {
+      title: "Facebook",
+      description: "My facebook messenger",
+      link: "https://m.me/mjamesthanawat",
     },
   ];
   return (
@@ -44,10 +65,18 @@ export default function App({}: Props): ReactElement {
             ))}
           </div>
         </section>
-        <section className="bg-white dark:bg-gray-800 rounded-lg p-6">
+        <section className="bg-white dark:bg-gray-800 rounded-lg p-6 mb-6">
           <div className="text-2xl font-semibold pb-2 uppercase">
             Work Experience
             {workEx.map((r, index) => (
+              <Card key={index} data={r} />
+            ))}
+          </div>
+        </section>
+        <section className="bg-white dark:bg-gray-800 rounded-lg p-6 mb-6">
+          <div className="text-2xl font-semibold pb-2 uppercase">
+            Contact
+            {Contact.map((r, index) => (
               <Card key={index} data={r} />
             ))}
           </div>
