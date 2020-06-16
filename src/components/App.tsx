@@ -82,7 +82,7 @@ export default function App({}: Props): ReactElement {
           </div>
         </section>
       </div>
-      <footer className="text-center mb-4">
+      <footer>
         © Copyright {new Date().getFullYear()} · Thanawat Gulati , Design :{" "}
         <a className="underline" href="https://rayriffy.com" rel="noopener">
           Rayriffy
