@@ -25,6 +25,12 @@ export default function App({}: Props): ReactElement {
         "Automatic programming check system Used in teaching computer programming at king mongkut's university of technology north bangkok",
       link: "https://github.com/thanawatgulati/compro2grader",
     },
+    {
+      title: "Computer Programming Grader",
+      description:
+        "Automatic programming check system Used in teaching computer programming at king mongkut's university of technology north bangkok",
+      link: "https://github.com/thanawatgulati/compro2grader",
+    },
   ];
   return (
     <main className="container mx-auto px-4 pt-16 dark:text-white">
@@ -47,6 +53,9 @@ export default function App({}: Props): ReactElement {
           </div>
         </section>
       </div>
+      <footer className="text-center">
+        © Copyright {new Date().getFullYear()} · Thanawat Gulati
+      </footer>
     </main>
   );
 }
