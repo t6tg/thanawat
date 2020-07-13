@@ -31,6 +31,16 @@ export default function App({}: Props): ReactElement {
       link: "https://thanawatgulati.github.io/covid-19",
     },
     {
+      title: "CuppyBot",
+      description: "AboutMr.CuppyBot ( DiscordBot )",
+      link: "https://github.com/thanawatgulati/CuppyBot",
+    },
+    {
+      title: "react-parcel",
+      description: "ReactJS , ParcelJS , TailwindCSS , Typescript Template",
+      link: "https://github.com/thanawatgulati/react-parcel",
+    },
+    {
       title: "Orther",
       description: "Other works and work experience",
       link: "https://github.com/thanawatgulati",
