@@ -1,0 +1,32 @@
+{
+    "name": "thanawat",
+    "description": "My Personal website",
+    "dependencies": {
+        "next": "^10.0.0",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Thanawat Gulati",
+        "email": "work.thanawatgulati@gmail.com",
+        "url": "https://t6tg.com"
+    },
+    "repository": "https://github.com/t6tg/thanawat",
+    "scripts": {
+        "dev": "next dev",
+        "start": "next start",
+        "build": "next build"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.5",
+        "@types/react": "^16.9.54",
+        "@typescript-eslint/eslint-plugin": "^4.6.0",
+        "@typescript-eslint/parser": "^4.6.0",
+        "eslint": "^7.12.1",
+        "eslint-plugin-react": "^7.21.5",
+        "postcss-preset-env": "^6.7.0",
+        "tailwindcss": "^1.9.6",
+        "typescript": "^4.0.5"
+    }
+}
