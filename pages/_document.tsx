@@ -22,6 +22,7 @@ class MyDocument extends Document {
                         Everything you need
                         Let me be the one to love you more"
                     />
+                    <link rel="icon" href="/favicon.png" />
                 </Head>
                 <body>
                     <Main />
