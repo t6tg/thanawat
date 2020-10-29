@@ -52,6 +52,7 @@ class MyDocument extends Document {
                         content="default"
                     />
                     <meta name="apple-mobile-web-app-title" content="T6TG" />
+                    <meta property="fb:app_id" content="1482938901910846" />
                     <meta
                         name="description"
                         content="I'll be waiting for you
