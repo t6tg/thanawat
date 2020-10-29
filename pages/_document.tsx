@@ -100,7 +100,7 @@ class MyDocument extends Document {
                         name="twitter:image"
                         content="https://t6tg.com/toloveyoumore.png"
                     />
-                    <meta name="twitter:creator" content="@DavidWShadow" />
+                    <meta name="twitter:creator" content="@t6tg_" />
                     <meta property="og:type" content="website" />
                     <meta
                         property="og:title"
