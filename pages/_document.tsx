@@ -43,7 +43,7 @@ class MyDocument extends Document {
                     />
                     <meta
                         property="og:image"
-                        content="https://t6tg.com/toloveyoumore.png"
+                        content="https://t6tg.com/static/toloveyoumore.png"
                     />
                     <meta name="application-name" content="T6TG" />
                     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -63,9 +63,9 @@ class MyDocument extends Document {
                     />
                     <meta name="format-detection" content="telephone=no" />
                     <meta name="mobile-web-app-capable" content="yes" />
-                    <meta name="msapplication-TileColor" content="#9C4221" />
+                    <meta name="msapplication-TileColor" content="#1A202C" />
                     <meta name="msapplication-tap-highlight" content="no" />
-                    <meta name="theme-color" content="#9C4221" />
+                    <meta name="theme-color" content="#1A202C" />
                     <link
                         rel="icon"
                         type="image/png"
@@ -98,7 +98,7 @@ class MyDocument extends Document {
                     />
                     <meta
                         name="twitter:image"
-                        content="https://t6tg.com/toloveyoumore.png"
+                        content="https://t6tg.com/static/toloveyoumore.png"
                     />
                     <meta name="twitter:creator" content="@t6tg_" />
                     <meta property="og:type" content="website" />
@@ -119,7 +119,7 @@ class MyDocument extends Document {
                     <meta property="og:url" content="https://t6tg.com" />
                     <meta
                         property="og:image"
-                        content="https://t6tg.com/toloveyoumore.png"
+                        content="https://t6tg.com/static/toloveyoumore.png"
                     />
                 </Head>
                 <body>
