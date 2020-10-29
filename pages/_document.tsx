@@ -66,33 +66,22 @@ class MyDocument extends Document {
                     <meta name="msapplication-TileColor" content="#9C4221" />
                     <meta name="msapplication-tap-highlight" content="no" />
                     <meta name="theme-color" content="#9C4221" />
-
-                    <link
-                        rel="apple-touch-icon"
-                        sizes="180x180"
-                        href="/public/icons/apple-touch-icon.png"
-                    />
                     <link
                         rel="icon"
                         type="image/png"
                         sizes="32x32"
-                        href="/public/icons/favicon-32x32.png"
+                        href="/static/icons/favicon-32x32.png"
                     />
                     <link
                         rel="icon"
                         type="image/png"
                         sizes="16x16"
-                        href="/public/icons/favicon-16x16.png"
+                        href="/static/icons/favicon-16x16.png"
                     />
-                    <link rel="manifest" href="/public/manifest.json" />
-                    <link
-                        rel="mask-icon"
-                        href="/public/icons/safari-pinned-tab.svg"
-                        color="#9C4221"
-                    />
+                    <link rel="manifest" href="/static/manifest.json" />
                     <link
                         rel="shortcut icon"
-                        href="/public/icons/favicon.ico"
+                        href="/static/icons/favicon.png"
                     />
 
                     <meta name="twitter:card" content="summary" />
@@ -113,10 +102,18 @@ class MyDocument extends Document {
                     />
                     <meta name="twitter:creator" content="@DavidWShadow" />
                     <meta property="og:type" content="website" />
-                    <meta property="og:title" content="PWA App" />
+                    <meta
+                        property="og:title"
+                        content="T6TG | Thanawat Gulati"
+                    />
                     <meta
                         property="og:description"
-                        content="Best PWA App in the world"
+                        content="I'll be waiting for you
+                        Here inside my heart
+                        I'm the one who wants to love you more
+                        You will see I can give you
+                        Everything you need
+                        Let me be the one to love you more"
                     />
                     <meta property="og:site_name" content="T6TG" />
                     <meta property="og:url" content="https://t6tg.com" />
