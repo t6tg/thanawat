@@ -1,0 +1,26 @@
+{
+    "name": "Thanawat Gulati",
+    "short_name": "T6TG",
+    "icons": [
+        {
+            "src": "/public/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/icons/favicon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#9C4221",
+    "background_color": "#9C4221",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+}
