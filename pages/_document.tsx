@@ -52,6 +52,16 @@ class MyDocument extends Document {
                         content="default"
                     />
                     <meta name="apple-mobile-web-app-title" content="T6TG" />
+                    <link
+                        rel="apple-touch-icon"
+                        sizes="180x180"
+                        href="/static/icons/apple-touch-icon.png"
+                    />
+                    <link
+                        rel="mask-icon"
+                        href="/static/icons/safari-pinned-tab.svg"
+                        color="#5bbad5"
+                    />
                     <meta property="fb:app_id" content="1482938901910846" />
                     <meta
                         name="description"
