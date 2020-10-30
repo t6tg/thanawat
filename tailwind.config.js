@@ -6,7 +6,10 @@ module.exports = {
     },
     purge: [],
     theme: {
-        extend: {}
+        extend: {},
+        colors: {
+            iwillalwaysloveyou: '#710c04'
+        }
     },
     variants: {},
     plugins: []
