@@ -5,6 +5,10 @@ export default function index(): ReactElement {
     return (
         <div>
             <div className="flex flex-col h-screen items-center justify-center text-white">
+                <audio controls autoPlay style={{ display: 'none' }} loop>
+                    <source src="/toloveyoumore.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
                 <h2 className="sm:text-lg  font-hairline xl:text-6xl text-left md:text-4xl">
                     I'll be waiting for you <br />
                     Here inside my heart <br />
@@ -27,6 +31,7 @@ export default function index(): ReactElement {
                         <img
                             src="https://www.pathosting.co.th/affiliate/show_file?client=115769&slot=15"
                             alt="P&T Hosting Co., Ltd. :: บริการ | จดโดเมนเนม | เว็บโฮสติ้ง | VPS | Co-location |"
+                            loading="lazy"
                             style={{
                                 border: '0px',
                                 width: '468px',
@@ -42,6 +47,7 @@ export default function index(): ReactElement {
                     >
                         <img
                             src="https://www.pathosting.co.th/affiliate/show_file?client=115769&slot=9"
+                            loading="lazy"
                             alt="P&T Hosting Co., Ltd. :: บริการ | จดโดเมนเนม | เว็บโฮสติ้ง | VPS | Co-location |"
                             style={{
                                 border: '0px',
