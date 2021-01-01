@@ -29,7 +29,7 @@ export default function index(): ReactElement {
                         title="P&T Hosting Co., Ltd. :: บริการ | จดโดเมนเนม | เว็บโฮสติ้ง | VPS | Co-location |"
                     >
                         <img
-                            src="https://www.pathosting.co.th/affiliate/show_file?client=115769&slot=15"
+                            src="/15.gif"
                             alt="P&T Hosting Co., Ltd. :: บริการ | จดโดเมนเนม | เว็บโฮสติ้ง | VPS | Co-location |"
                             loading="lazy"
                             style={{
@@ -46,7 +46,7 @@ export default function index(): ReactElement {
                         title="P&T Hosting Co., Ltd. :: บริการ | จดโดเมนเนม | เว็บโฮสติ้ง | VPS | Co-location |"
                     >
                         <img
-                            src="https://www.pathosting.co.th/affiliate/show_file?client=115769&slot=9"
+                            src="/9.gif"
                             loading="lazy"
                             alt="P&T Hosting Co., Ltd. :: บริการ | จดโดเมนเนม | เว็บโฮสติ้ง | VPS | Co-location |"
                             style={{
