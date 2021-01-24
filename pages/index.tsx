@@ -33,8 +33,6 @@ export const getServerSideProps: GetServerSideProps = async () => {
   });
   const data = await res.json();
 
-  console.log(data);
-
   return {
     props: {
       data,
