@@ -19,7 +19,7 @@ const Header = ({ nowPlay }) => {
           <img src="/twitter.svg" alt="twitter" loading="lazy" width="32px" />
         </a>
         <a
-          href="https://webring.wonderful.software#YOUR.DOMAIN"
+          href="https://webring.wonderful.software#t6tg.com"
           title="วงแหวนเว็บ"
           className="animate-spin"
         >
