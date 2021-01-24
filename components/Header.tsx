@@ -18,6 +18,18 @@ const Header = ({ nowPlay }) => {
         <a href="https://twitter.com/t6tg_" title="twitter">
           <img src="/twitter.svg" alt="twitter" loading="lazy" width="32px" />
         </a>
+        <a
+          href="https://webring.wonderful.software#YOUR.DOMAIN"
+          title="วงแหวนเว็บ"
+          className="animate-spin"
+        >
+          <img
+            alt="วงแหวนเว็บ"
+            width="32"
+            height="32"
+            src="https://webring.wonderful.software/webring.black.svg"
+          />
+        </a>
       </div>
       {nowPlay.is_playing && (
         <div className="mx-3 mt-2">

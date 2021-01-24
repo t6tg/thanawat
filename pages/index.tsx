@@ -2,10 +2,14 @@ import React from "react";
 import { GetServerSideProps } from "next";
 import Header from "../components/Header";
 import Blog from "../components/Blog";
+import Head from "next/head";
 
 const Index = ({ data, spotify_data }) => {
   return (
     <div>
+      <Head>
+        <title>T6TG | Thanawat Gulati</title>
+      </Head>
       <Header nowPlay={spotify_data} />
       <Blog data={data} />
     </div>
